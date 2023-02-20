@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section">
+    <h1 id="title">Survey Form Designed by Khalil & Sheldon</h1>
+    <p id = "description">We are going to design this survey form for microverse admisssion trials</p>
+    <form id="survey-form">
+        
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text"  placeholder="enter your name here"required><br>
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" placeholder="enter your email here"required><br>
+        <label id = "number-label" for="number">Age</label>
+        <input id ="number" type="number" min = "10" max="50" placeholder="enter a number"><br>
+        <label>Choose from given two options</label>
+        <select id="dropdown">
+         <option value="Are you a student">Are you a student</option>
+         <option value="Are you a teacher">Are you a teacher</option>       
+        </select>
+        <br><label>Have to been to levelup Experience
+        <input type="radio" name = "microverse" value="Have to been to levelup Experience"></label><br>
+        <label>You have not been to levelup Experience
+            <input type="radio" name = "microverse" value="You have not been to levelup Experience"></label> <br>
+            <input type="checkbox" value="checkbox1">
+            <input type="checkbox" value="checkbox2">
+            <input type="checkbox" value="checkbox3">
+            <textarea rows="3" cols="50">add your comments here</textarea>
+            
+            <button id="submit" type="submit">Submit</button>
+
+    </form> 
+</div>
+</body>
+</html>
